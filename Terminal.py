@@ -1,5 +1,5 @@
 #Terminal
-build=1
+ver=1=1
 #github.com/smcclennon/Toolbox
 import os
 os.system("title Terminal")

@@ -1,5 +1,5 @@
 #Task Killer
-build=1
+ver=1
 #github.com/smcclennon/Toolbox
 import os
 while True:
