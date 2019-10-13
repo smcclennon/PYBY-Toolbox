@@ -28,7 +28,7 @@ Terminal
 
 ![CMD Ping](https://i.imgur.com/kEKgOhf.png)
 
-ρ๏ώ€я$h€ℓℓ
+PShell
 
 - Powershell substitute
 - Access and use Windows ρ๏ώ€я$h€ℓℓ even when it has been disabled by your system administrator
