@@ -31,7 +31,7 @@ Terminal
 PShell
 
 - Powershell substitute
-- Access and use Windows ρ๏ώ€я$h€ℓℓ even when it has been disabled by your system administrator
+- Access and use Windows Powershell even when it has been disabled by your system administrator
 
 ![PS Ping](https://i.imgur.com/wRazAta.png)
 
