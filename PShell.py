@@ -1,5 +1,5 @@
 #Powershell
-ver=1
+ver='1.0.0'
 #github.com/smcclennon/Toolbox
 import os
 os.system('title Windows  PShell')
