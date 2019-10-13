@@ -1,11 +1,13 @@
 # Toolbox
 A collection of python scripts to bypass various blocks on locked down versions of Windows
 
+These scripts are standalone, portable and don't require any extra pip packages that aren't already included in Python 3 for **Windows**
+
 View [Toolbox Releases](https://github.com/smcclennon/Toolbox/releases)
 
 # Scripts
 
-Pip.py
+PIP
 
 - Install PIP packages to your user-home directory
 - Bypass insufficient permissions (due to Python being installed in "C:\Program Files" for example)
