@@ -1,5 +1,5 @@
 # Python Bypass Toolbox
-A collection of python scripts to bypass various blocks on locked down versions of Windows (such as work or school)
+A collection of python scripts to bypass various blocks on locked down versions of Windows
 
 These scripts are standalone, portable and don't require any extra pip packages that aren't already included in Python 3 for **Windows**
 
