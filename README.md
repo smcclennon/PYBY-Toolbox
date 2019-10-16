@@ -6,6 +6,11 @@ These scripts are standalone, portable and don't require any extra pip packages 
 View [Toolbox Releases](https://github.com/smcclennon/Toolbox/releases)
 
 # Scripts
+Volute
+- Unmute your system volume continuously
+- Bypass any programs attempting to mute your system volume
+
+![Volute](https://i.imgur.com/p9lVyXU.png)
 
 PIP
 
