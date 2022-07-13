@@ -46,7 +46,7 @@ except:
 
 
 print("Import complete!")
-print(f"Key: {key}\nInitial delay: {5} seconds\n Key delay: {key_delay}")
+print(f"Key: {key}\nInitial delay: 5 seconds\n Key delay: {key_delay}")
 if buffer_delay < 0:
     print(f"\nBuffer range: {buffer_range}\nBuffer delay: {buffer_delay}")
 print('\n\n\n*** Please note, to cancel the operation at any time, hover your mouse into the top right corner of your screen ***')
