@@ -5,5 +5,5 @@ import os
 os.system("title Terminal")
 while True:
         cmd=input("Terminal>")
-        os.system("title CMD Terminal ["+cmd+"]")
-        os.system(""+cmd+"")
+        os.system(f"title CMD Terminal [{cmd}]")
+        os.system(f"{cmd}")

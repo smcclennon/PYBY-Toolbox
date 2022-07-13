@@ -10,7 +10,7 @@ try:
     import os
     from threading import Thread
     from ctypes import cast, POINTER
-    os.system('title Volute v'+ver+' - Importing...')
+    os.system(f'title Volute v{ver} - Importing...')
 except:
     print('\nError: unable to import one or more libraries\nVisit: github.com/smcclennon/PYBY-Toolbox for support\n\nPress enter to exit...')
     input()
@@ -20,7 +20,7 @@ try:
     from comtypes import CLSCTX_ALL
 except:
     print('\nError: unable to import "comtypes"')
-    confirm=input(str('Attempt to install "comtypes"? [Y/n] ')).upper()
+    confirm = input('Attempt to install "comtypes"? [Y/n] ').upper()
     if confirm!='N':
         try:
             os.system('pip install comtypes --user')
@@ -35,7 +35,7 @@ try:
     from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 except:
     print('\nError: unable to import "pycaw"')
-    confirm=input(str('Attempt to install "pycaw"? [Y/n] ')).upper()
+    confirm = input('Attempt to install "pycaw"? [Y/n] ').upper()
     if confirm!='N':
         try:
             os.system('pip install pycaw --user')
@@ -61,10 +61,10 @@ def unmuteThread():
     while run == True:
         volume.SetMute(0, None)
 
-os.system('title Volute v'+ver)
+os.system(f'title Volute v{ver}')
 print(f'Creating {THREADS_TO_CREATE} threads...')
 
-for i in range(0, THREADS_TO_CREATE):
+for _ in range(THREADS_TO_CREATE):
     Thread(target = unmuteThread).start()
     print('Created thread')
 

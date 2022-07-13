@@ -17,7 +17,7 @@ while True:
                 term=input("> ")
                 if term==".refresh":
                         break
-                os.system("taskkill /f /im "+term+" /t")
+                os.system(f"taskkill /f /im {term} /t")
                 print("")
                 print("To refresh the tasklist, type '.refresh'")
                 
